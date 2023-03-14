@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>КАПИБАРЫЫЫ</title>
+</head>
+<body>
+    <button id="playBtn">Включить КАПИБАРУ</button>
+    <audio id="music" src="audio.mp3"></audio>
+    <script>
+      var music = document.getElementById("music");
+      var playBtn = document.getElementById("playBtn");
+      playBtn.addEventListener("click", function() {
+        music.play();
+      });
+    </script>
+</body>
+</html>
